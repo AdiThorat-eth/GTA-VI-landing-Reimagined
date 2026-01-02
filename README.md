@@ -1,16 +1,9 @@
-# React + Vite
+GTA 6 Web Application 🏎️💥
+About
+GTA 6 is the most anticipated open-world title, so I developed a stunning, responsive web application dedicated to the game. Having played the GTA franchise since my childhood, I am a massive fan of the series, which inspired me to build this project. Developed with modern web technologies, it focuses on delivering a high-performance and immersive interface for the GTA community. 🎮🔥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Why This Project? 🌟
+As a lifelong fan who grew up exploring every corner of Liberty City, San Andreas, and Los Santos, creating this application was a passion project. It is designed to reflect the high quality and detail that Rockstar Games is known for. This project is my tribute to the franchise that defined my gaming journey.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+License 📜
+This project is for fan-made purposes only. All intellectual property related to Grand Theft Auto VI belongs to Rockstar Games and Take-Two Interactive.
