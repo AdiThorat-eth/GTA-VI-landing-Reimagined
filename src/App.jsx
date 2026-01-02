@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/all";
 import Lenis from "lenis";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import Yo from "./Components/Yo";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -44,6 +45,7 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
+      {/* <Yo /> */}
     </main>
   );
 };
