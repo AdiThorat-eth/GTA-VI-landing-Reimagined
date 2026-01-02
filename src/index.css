@@ -59,13 +59,6 @@ body {
     @apply fixed top-0 left-0 w-full flex justify-between items-center md:p-16 p-5 z-[100];
   }
 
-  .mask-wrapper {
-    mask-image: url("/images/big-hero-text.svg");
-    mask-repeat: no-repeat;
-    /* mask-size: contain;
-    mask-position: center; */
-  }
-
   .hero-section {
     @apply w-dvw h-dvh relative overflow-hidden;
 
@@ -103,10 +96,25 @@ body {
   .gradient-title {
     @apply md:text-[5rem] text-[3rem] font-round-bold !font-extrabold uppercase md:leading-[4.5rem] leading-[3rem] text-center bg-gradient-to-r from-pink-400 via-red-400 to-orange-400 bg-clip-text text-transparent;
   }
+
+  .first-vd-wrapper {
+    @apply w-dvw h-dvh relative overflow-hidden;
+
+    .first-vd {
+      @apply size-full object-cover object-[75%_center] md:object-[50%_center];
+    }
+  }
 }
 
 .entrance-message {
   mask-image: radial-gradient(circle at 50% 100vh, black 0%, transparent 0%);
   mask-repeat: no-repeat;
   mask-size: 100% 100%;
+}
+
+.mask-wrapper {
+  mask-image: url("/images/big-hero-text.svg");
+  mask-repeat: no-repeat;
+  /* mask-size: contain;
+    mask-position: center; */
 }

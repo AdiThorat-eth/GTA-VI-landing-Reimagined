@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/all";
 import Lenis from "lenis";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
-import Yo from "./Components/Yo";
+import FVideo from "./Components/FVideo";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -45,7 +45,7 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
-      {/* <Yo /> */}
+      <FVideo />
     </main>
   );
 };
