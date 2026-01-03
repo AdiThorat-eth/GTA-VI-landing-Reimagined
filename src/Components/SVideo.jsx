@@ -6,7 +6,7 @@ const SVideo = () => {
   const videoRef = useRef();
 
   useGSAP(() => {
-    gsap.set(".lucia", { marginTop: "-60vh" });
+    gsap.set(".lucia", { marginTop: "-60vh", opacity: 0 });
 
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -18,7 +18,7 @@ const SVideo = () => {
       },
     });
 
-    tl.to(".lucia", { duration: 1, ease: "power1.inOut" });
+    tl.to(".lucia", { opacity: 1, duration: 1, ease: "power1.inOut" });
 
     videoRef.current.onloadedmetadata = () => {
       tl.to(

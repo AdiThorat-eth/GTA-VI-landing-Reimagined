@@ -32,7 +32,7 @@ const PostCard = () => {
     <section className="post-card">
       <div className="animated-gradient-bg" />
 
-      <div className="post-card-wrapper group hover:rotate-1 hover:scale-[1.02] transition duration-700">
+      <div className="post-card-wrapper group hover:rotate-1 hover:-[1.02] transition duration-700">
         <img src="/images/overlay.webp" />
 
         <video
